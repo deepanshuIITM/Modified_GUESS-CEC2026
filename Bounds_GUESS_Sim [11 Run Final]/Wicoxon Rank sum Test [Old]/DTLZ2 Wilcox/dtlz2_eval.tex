@@ -1,0 +1,355 @@
+\documentclass[a4paper,10pt]{article}
+\title{Wilcoxon Signed Ranks test.}
+\date{\today}
+\author{KEEL non-parametric statistical module}
+\begin{document}
+
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+
+
+\section{Detailed results for Algorithm 1}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 2 & 5.0 & 50.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 3 & 5.0 & 50.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 4 & 10.5 & 44.5 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 5 & 1.5 & 43.5 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 6 & 10.5 & 44.5 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 1}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 2 & [0 , 170,000] & 0\\ \hline 
+Algorithm 3 & [0 , 200,000] & 0\\ \hline 
+Algorithm 4 & [0 , 220,000] & 0\\ \hline 
+Algorithm 5 & [0 , 260,000] & 0\\ \hline 
+Algorithm 6 & [0 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 1 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 2 & [0 , 170,000] & 0\\ \hline 
+Algorithm 3 & [0 , 200,000] & 0\\ \hline 
+Algorithm 4 & [0 , 220,000] & 0\\ \hline 
+Algorithm 5 & [0 , 260,000] & 0\\ \hline 
+Algorithm 6 & [0 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 1 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for Algorithm 2}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 1 & 50.0 & 5.0 & $\geq$ 0.2 & 0.017566\\ \hline 
+Algorithm 3 & 16.5 & 28.5 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 4 & 25.0 & 20.0 & $\geq$ 0.2 & 0.718285\\ \hline 
+Algorithm 5 & 10.0 & 35.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 6 & 29.5 & 25.5 & $\geq$ 0.2 & 0.793717\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 2}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-170,000 , 0] & 0\\ \hline 
+Algorithm 3 & [-160,000 , 200,000] & 0\\ \hline 
+Algorithm 4 & [-160,000 , 140,000] & 0\\ \hline 
+Algorithm 5 & [-160,000 , 260,000] & 0\\ \hline 
+Algorithm 6 & [-160,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 2 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-170,000 , 0] & 0\\ \hline 
+Algorithm 3 & [-160,000 , 200,000] & 0\\ \hline 
+Algorithm 4 & [-160,000 , 140,000] & 0\\ \hline 
+Algorithm 5 & [-160,000 , 260,000] & 0\\ \hline 
+Algorithm 6 & [-160,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 2 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for Algorithm 3}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 1 & 50.0 & 5.0 & $\geq$ 0.2 & 0.016142\\ \hline 
+Algorithm 2 & 28.5 & 16.5 & $\geq$ 0.2 & 0.427454\\ \hline 
+Algorithm 4 & 32.0 & 23.0 & $\geq$ 0.2 & 0.591257\\ \hline 
+Algorithm 5 & 16.5 & 38.5 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 6 & 32.0 & 23.0 & $\geq$ 0.2 & 0.600992\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 3}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-200,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-200,000 , 160,000] & 0\\ \hline 
+Algorithm 4 & [-200,000 , 40,000] & 0\\ \hline 
+Algorithm 5 & [-180,000 , 200,000] & 0\\ \hline 
+Algorithm 6 & [-200,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 3 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-200,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-200,000 , 160,000] & 0\\ \hline 
+Algorithm 4 & [-200,000 , 40,000] & 0\\ \hline 
+Algorithm 5 & [-180,000 , 200,000] & 0\\ \hline 
+Algorithm 6 & [-200,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 3 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for Algorithm 4}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 1 & 44.5 & 10.5 & $\geq$ 0.2 & 0.074462\\ \hline 
+Algorithm 2 & 20.0 & 25.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 3 & 23.0 & 32.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 5 & 14.0 & 41.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 6 & 21.5 & 23.5 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 4}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-220,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-140,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-40,000 , 200,000] & 0\\ \hline 
+Algorithm 5 & [-220,000 , 260,000] & 0\\ \hline 
+Algorithm 6 & [-220,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 4 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-220,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-140,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-40,000 , 200,000] & 0\\ \hline 
+Algorithm 5 & [-220,000 , 260,000] & 0\\ \hline 
+Algorithm 6 & [-220,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 4 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for Algorithm 5}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 1 & 43.5 & 1.5 & $\geq$ 0.2 & 0.008669\\ \hline 
+Algorithm 2 & 35.0 & 10.0 & $\geq$ 0.2 & 0.117992\\ \hline 
+Algorithm 3 & 38.5 & 16.5 & $\geq$ 0.2 & 0.172803\\ \hline 
+Algorithm 4 & 41.0 & 14.0 & $\geq$ 0.2 & 0.143105\\ \hline 
+Algorithm 6 & 39.0 & 16.0 & $\geq$ 0.2 & 0.221272\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 5}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-260,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-260,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-200,000 , 180,000] & 0\\ \hline 
+Algorithm 4 & [-260,000 , 220,000] & 0\\ \hline 
+Algorithm 6 & [-220,000 , 50,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 5 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-260,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-260,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-200,000 , 180,000] & 0\\ \hline 
+Algorithm 4 & [-260,000 , 220,000] & 0\\ \hline 
+Algorithm 6 & [-220,000 , 50,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 5 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\section{Detailed results for Algorithm 6}
+
+
+\subsection{Results}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|c|c|}
+\hline
+ VS & $R^{+}$ & $R^{-}$ & Exact P-value & Asymptotic P-value \\ \hline 
+Algorithm 1 & 44.5 & 10.5 & $\geq$ 0.2 & 0.070796\\ \hline 
+Algorithm 2 & 25.5 & 29.5 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 3 & 23.0 & 32.0 & $\geq$ 0.2 & 1\\ \hline 
+Algorithm 4 & 23.5 & 21.5 & $\geq$ 0.2 & 0.854697\\ \hline 
+Algorithm 5 & 16.0 & 39.0 & $\geq$ 0.2 & 1\\ \hline 
+
+\end{tabular}
+\caption{Results obtained by the Wilcoxon test for algorithm Algorithm 6}
+\end{table}
+
+\subsection{Confidence intervals for Median of diferences}
+
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.90 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-220,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-220,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-220,000 , 200,000] & 0\\ \hline 
+Algorithm 4 & [-220,000 , 220,000] & 0\\ \hline 
+Algorithm 5 & [-50,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 6 ($\alpha$=0.90)}
+\end{table}
+\begin{table}[!htp]
+\centering\small
+\begin{tabular}{
+|c|c|c|}
+\hline
+ $\alpha$=0.95 & Confidence interval & Exact confidence \\ \hline 
+Algorithm 1 & [-220,000 , 0] & 0\\ \hline 
+Algorithm 2 & [-220,000 , 160,000] & 0\\ \hline 
+Algorithm 3 & [-220,000 , 200,000] & 0\\ \hline 
+Algorithm 4 & [-220,000 , 220,000] & 0\\ \hline 
+Algorithm 5 & [-50,000 , 220,000] & 0\\ \hline 
+
+\end{tabular}
+\caption{Confidence intervals for algorithm Algorithm 6 ($\alpha$=0.95)}
+\end{table}
+
+ \clearpage 
+
+
+\end{document}
